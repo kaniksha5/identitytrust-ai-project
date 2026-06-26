@@ -170,7 +170,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 👥 Team
 
-**Delta Syntax** — KPR Institute of Engineering and Technology (KPRIET), Coimbatore
+**IdentityX** — KPR Institute of Engineering and Technology (KPRIET), Coimbatore
 
 ---
 
