@@ -135,8 +135,8 @@ Identity Trust Score (0–100)
 
 ```bash
 # Clone the repository
-git clone https://github.com/kaniksha5/identitytrust-ai.git
-cd identitytrust-ai
+git clone https://github.com/kaniksha5/identitytrust-ai-project.git
+cd identitytrust-ai-project
 
 # Install dependencies
 npm install
