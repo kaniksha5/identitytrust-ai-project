@@ -1,6 +1,6 @@
 # IdentityTrust AI
 
-> **PSB Hackathon Series 2026** · Cybersecurity & Fraud Domain  
+> **PSB Hackathon Series 2026** · Cybersecurity & Fraud Domain
 > Academic Partner: IIT Gandhinagar · Hosted by: Bank of Baroda
 
 ---
@@ -129,6 +129,8 @@ Identity Trust Score (0–100)
 | AI/ML | Behavioral biometrics engine, vector similarity search |
 | Data | Mocked realistic banking datasets (100 customers, 20 devices, 50 alerts, 30 campaigns) |
 
+> 📌 See **[Implementation Status](#-implementation-status)** below for a transparent breakdown of which AI/ML components are functioning logic vs. simulated for demonstration purposes.
+
 ---
 
 ## 🚀 Getting Started
@@ -165,6 +167,25 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | Alert Center | Real-time notifications with resolve/escalate actions |
 | Analytics | Fraud prevention metrics, money saved, trend charts |
 | Settings | Risk threshold configuration, allowed countries, notifications |
+
+---
+
+## 🧪 Implementation Status
+
+This is a hackathon prototype. In the interest of transparency for judges and reviewers, the table below indicates the nature of each AI/ML-related component as currently implemented. *(Update the ✅/🟡 markers below to reflect your actual code before submission.)*
+
+| Component | Status | Notes |
+|---|---|---|
+| Identity Risk Scoring | 🟡 Functional logic | Rule-based / weighted scoring across input signals; not a trained ML model |
+| Campaign Fingerprinting & Similarity Matching | 🟡 Functional logic | Vector representation and similarity comparison implemented over demo data |
+| LLM Forensic Explanation Layer | 🟡 Functional logic | Generates plain-English explanations from risk signals |
+| Deepfake / Liveness Scoring | 🔶 Simulated | Demonstrates the intended UX and decision flow on mock inputs |
+| Insider Threat Anomaly Detection | 🔶 Simulated | Behavioral baseline and alerts shown on pre-generated demo data |
+| Underlying Dataset | 🔶 Mocked | Synthetic data — 100 customers, 20 devices, 50 alerts, 30 campaigns |
+
+**Legend:** 🟡 Real working logic (operates on mock data) · 🔶 Simulated for demo purposes (illustrates intended behavior, not yet backed by live computation)
+
+We believe in presenting an honest picture of prototype maturity: the architecture, decision flows, and UX are fully designed end-to-end, while some scoring components currently run on simulated outputs as placeholders for models intended for production (e.g., a trained classifier in place of the current rule-based risk engine, or a production deepfake-detection model in place of the current simulated score).
 
 ---
 
