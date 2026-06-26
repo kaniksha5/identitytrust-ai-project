@@ -191,7 +191,7 @@ We believe in presenting an honest picture of prototype maturity: the architectu
 
 ## 👥 Team
 
-**IdentityX** — KPR Institute of Engineering and Technology (KPRIET), Coimbatore
+**TruthGraph** — KPR Institute of Engineering and Technology (KPRIET), Coimbatore
 
 ---
 
@@ -209,7 +209,7 @@ We believe in presenting an honest picture of prototype maturity: the architectu
 
 As digital banking rapidly expands, financial institutions face increasingly sophisticated threats such as account takeover, KYC fraud, phishing campaigns, malicious applications, and insider misuse. Traditional authentication mechanisms rely on static credentials and blanket multi-factor authentication, creating unnecessary friction for legitimate users while remaining vulnerable to evolving attack techniques.
 
-IdentityTrust AI proposes a privacy-first, AI-powered Identity Trust framework that continuously evaluates the trustworthiness of customer and enterprise identities throughout their digital journey. The system combines continuous behavioral analytics, device intelligence, campaign fingerprinting, and adaptive risk assessment to calculate a real-time identity trust score for every login, transaction, account recovery, and privileged access request.
+TrustGraph AI proposes a privacy-first, AI-powered Identity Trust framework that continuously evaluates the trustworthiness of customer and enterprise identities throughout their digital journey. The system combines continuous behavioral analytics, device intelligence, campaign fingerprinting, and adaptive risk assessment to calculate a real-time identity trust score for every login, transaction, account recovery, and privileged access request.
 
 By shifting from static identity verification to **continuous trust evaluation**, the proposed solution significantly reduces account takeover incidents, KYC fraud, and insider threats while delivering secure, friction-optimized digital banking across multiple channels.
 
